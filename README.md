@@ -7,3 +7,5 @@ This is a learning project from Stephen Grider Udemy Course
 
 After you clone the project, checkout to this branch
 `git checkout first-project`
+
+Updated!

@@ -1,5 +1,6 @@
 # react-native
 React Native Project
+This is a barebone React Native Branch
 
 For Windows 10 users, follow these steps:
 

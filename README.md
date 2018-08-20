@@ -1,6 +1,8 @@
 # react-native
 React Native Project
+
 This is a barebone React Native Branch
+
 Clone this project if you're having trouble with React Native  version 0.56
 
 For Windows 10 users, follow these steps:

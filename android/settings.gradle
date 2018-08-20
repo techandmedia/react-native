@@ -1,0 +1,3 @@
+rootProject.name = 'TwoNativeProject'
+
+include ':app'

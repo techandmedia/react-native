@@ -29,11 +29,10 @@ const AlbumDetail = props => {
       </CardSection>
 
       <CardSection>
-        <Button whenPress={()=> Linking.openURL(url)}/>
+        <Button whenPress={() => Linking.openURL(url)}>Buy Now</Button>
         {/* <Button whenPress={()=> alert(title)}/> */}
         {/* <Button whenPress={()=> console.log(title)}/> */}
       </CardSection>
-
     </Card>
   );
 };

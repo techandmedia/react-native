@@ -16,8 +16,8 @@ const AlbumDetail = props => {
           />
         </ThumbnailStyle>
         <TextSection>
-          <StyledText>{title}</StyledText>
-          <StyledText>{artist}</StyledText>
+          <StyledText style={{ fontSize: 17 }}>{title}</StyledText>
+          <StyledText style={{ color: "#3C6478" }}>{artist}</StyledText>
         </TextSection>
       </CardSection>
 

@@ -1,5 +1,6 @@
 import React from "react";
-import styled from "styled-components";
+import { Flatlist, ScrollView } from "react-native";
+// import styled from "styled-components";
 import axios from "axios";
 import AlbumDetail from "./AlbumDetail";
 
@@ -19,13 +20,9 @@ export default class AlbumList extends React.Component{
 
   render() {
     return (
-      <StyledView>
+      <ScrollView>
         {this.renderAlbums()}
-      </StyledView>
+      </ScrollView>
     );    
   }
 };
-
-const StyledView = styled.View`
-  ${'' /* background-color: #f8f8f8; */}
-`;

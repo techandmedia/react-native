@@ -1,6 +1,7 @@
 import React from "react";
 import { Image } from "react-native";
 import styled from "styled-components";
+import Button from "./Button";
 
 const AlbumDetail = props => {
   const { artist, image, title, thumbnail_image } = props.data;
@@ -19,12 +20,18 @@ const AlbumDetail = props => {
           <StyledText>{artist}</StyledText>
         </TextSection>
       </CardSection>
+
       <CardSection>
         <Image
           style={{ height: 300, flex: 1, width: "auto" }}
           source={{ uri: image }}
         />
       </CardSection>
+
+      <CardSection>
+        <Button />
+      </CardSection>
+
     </Card>
   );
 };

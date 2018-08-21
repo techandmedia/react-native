@@ -1,6 +1,6 @@
 import React from "react";
 import { Flatlist, ScrollView } from "react-native";
-import styled from "styled-components";
+// import styled from "styled-components";
 import axios from "axios";
 import AlbumDetail from "./AlbumDetail";
 

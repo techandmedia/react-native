@@ -1,11 +1,12 @@
 # react-native
-Project - Album List
+React Native Project
 
-React Native Version 0.55.4
+This is a barebone React Native using version 0.55.4
 
-This is a learning project from Stephen Grider Udemy Course
+Clone this project if you're having trouble with React Native version 0.56
 
-After you clone the project, checkout to this branch
-`git checkout first-project`
+For instruction in English: 
+`git checkout barebone-react-native`
 
-Updated!
+Untuk instruksi instalasi React Native dalam Bahasa Indonesia: 
+`git checkout versi-indonesia`
